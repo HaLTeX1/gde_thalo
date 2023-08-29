@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Tantárgyi háló | Gábor Dénes Egyetem</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Language" content="hu">
+
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="description" content="-">
+	<meta name="keywords" content="-">
+
+	<meta name="robots" content="all">
+
+	<meta property="og:title" content="Tantárgyi háló | Gábor Dénes Egyetem ">
+	<meta property="og:url" content="t-init.hu">
+	<meta property="og:site_name" content="Tantárgyi háló | Gábor Dénes Egyetem">
+	<meta property="og:description" content="-">
+
+ 	<link rel="stylesheet" href="index_files/style.css">
+	<link rel="shortcut icon" href="http://www.nikhok.hu/favicon.png">
+
+<!--
+	<link rel="stylesheet" href="index_files/style.css">
+	<link rel="shortcut icon" href="index_files/favicon.png">
+-->
+	
+
+</head>
+<body>
+    
+	
+<div class="container default-layout">
+	
+	<header>
+		<a class="left" href="gde.t-init.hu" title="Gábor Dénes Egyetem | Mérnökinformatika">
+			<img class="logo" src="./index_files/GDE_logo.png" alt="logo">
+		</a>
+		
+		
+		<nav>
+			<ul class="topmenu right">
+				<li>
+                    <a href="http://www.nikhok.hu/szakmai-oldalunk" title="Szakmai oldalunk">Szakmai oldalunk</a>
+                </li>
+				<li>
+                    <a href="http://www.nikhok.hu/ef-levelkuldo" title="ÉF Levélküldő">ÉF Levélküldő</a>
+                </li>
+				<li>
+                    <a href="http://www.nikhok.hu/kockanap" title="Kockanap">Kockanap</a>
+                </li>
+				<li>
+                    <a href="http://www.nikhok.hu/golyatabor" title="Gólyatábor">Gólyatábor</a>
+                </li>
+				<li>
+                    <a href="http://www.nikhok.hu/kinfo-csapat" title="Kinfo csapat">Kinfo csapat</a>
+                </li>
+				<li>
+                    <a href="http://www.nikhok.hu/korsoavato" title="Korsóavató">Korsóavató</a>
+                </li>
+				<li class="lst">
+                    <a href="http://www.nikhok.hu/levelezolistak" title="Levelezőlisták">Levelezőlisták</a>
+                </li>
+			</ul>
+		</nav>		
+	</header>
+	
+	<nav class="mainmenu">
+		<ul>
+		    <li>
+		        <a href="http://www.nikhok.hu/cimlap" title="Címlap">Címlap</a>
+		    </li>
+		    <li>
+		        <a href="http://www.nikhok.hu/elerhetosegek" title="Elérhetőségek">Elérhetőségek</a>
+		    </li>
+		    <li>
+		        <a class="active" href="http://www.nikhok.hu/tantargyi-halo" title="Tantárgyi háló">Tantárgyi háló</a>
+		    </li>
+		    <li>
+		        <a href="http://www.nikhok.hu/palyazatok" title="Pályázatok">Pályázatok</a>
+		    </li>
+		</ul>
+	</nav>
+	
+	<div class="main" style="width: 952px;">
+		
+		<h1>GDE Mérnökinformatika | Tantárgyi háló</h1>
+
+<!-- 
+
+	,::                                   :                                     ::  
+	  ,:::::::::,,,,,,,,,,:               ,                              ,,:::::    
+	     ,:::: ,:~::,,::~:::            :               :::::~:::::::::~:::~:,      
+	  ,:                               ~                ,                ,   ,      
+	    ~::,              ::           :,               ,::,,,,,,,,,,,,,,:::,       
+	      :::::::::::::::::             ::               ::::    ,:: ,::~,          
+	     :  :~:  ~     :::               ,,               ::        ,,   ~          
+	      ,:,  :,      :::              ,:::              :::,       :::~           
+	        ::::::,,,:::::                                ::::::~,:::::             
+	           :::, ,,:~:::     ,:,,~:           :,      ::::                       
+	              ,,   :::::::::::, ,     ,     ,,~:::::::::::,    ::               
+	           ,:::,,,~:,  ::    :: ,      ,    : ,:   ,:    :::::                  
+	              ,:::::,         : ,      ,   ,,: ~       ,,                       
+	                               ,       , ,: ,~ :                                
+	                               ,,:::~::~    ,: ,                                
+	                             ,::: :         ::,                                 
+	                             :::,           ::,                                 
+	                            ,~:              ::                                 
+	                             ~:              :,                                 
+	                             :,              ~                                  
+	                             ~:             ,:                                  
+	                              ::            :                                   
+	                               ,:          :                                    
+	                                   ,   ,,                                       
+
+	Hibát találtál? Hiányzik funkció? Vagy csak a kód érdekel?
+	Kövesd vissza az oldal fejlődését és töltsd le az egész
+	oldal forráskódját
+	
+	https://github.com/szalonna/OE-Dependecy-Map
+	
+	oldalról, módosítsd, javítsd és küld fel a módosításod!
+
+	Szalonna
+-->
+
+		<style type="text/css">
+			#datachooser li{
+				width: 33.3%;
+				-webkit-box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+				        box-sizing: border-box;
+			}
+			#datachooser a{
+				width: 100%;
+			}
+			#drawContainer{
+				box-shadow:		  inset 0 0 10px rgba(0,0,0,.5);
+				border:			  1px solid rgba(0,0,0,.2);
+				background-color: #bdc3c7;
+			}
+			#progressBar{
+				border-radius:	  10px;
+				margin-top:		  5px;
+				height:			  25px;
+				line-height:	  25px;
+				background-color: #ddd;
+				overflow:		  hidden;
+				box-shadow: 	  inset 0 0 3px rgba(0,0,0,.2);
+			}
+			#progressBar > p{
+				float:       left;
+				margin-left: 10px;
+				font-weight: bold;
+				font-size:   10px;
+				text-shadow: -1px -1px 1px rgba(255,255,255,.3),
+							  1px -1px 1px rgba(255,255,255,.3),
+							 -1px  1px 1px rgba(255,255,255,.3),
+							  1px  1px 1px rgba(255,255,255,.3);
+			}
+			#progressBar > div{
+				width:			  0;
+				height:			  25px;
+				background-color: #933;
+				box-shadow:		  inset 0 0 3px rgba(0,0,0,.4);
+				border-radius:    5px;
+			}
+			#clearSelection{
+				background-color: rgb(0, 106, 170);
+				border:			  1px solid #1D3D76;
+				color:			  #fff;
+				padding:   		  5px 20px;
+				margin-top:		  15px;
+				background:	-webkit-gradient(linear, 0 100%, 0 0, from(#035A8F), to(#024269));
+				background:	-webkit-linear-gradient(#035A8F 0%, #024269 100%);
+				background:	   -moz-linear-gradient(#035A8F 0%, #024269 100%);
+				background:	     -o-linear-gradient(#035A8F 0%, #024269 100%);
+				background:	        linear-gradient(#035A8F 0%, #024269 100%);
+			}
+			#hash{
+				float:			  left;
+				width:			  600px;
+				background-color: #E9EBED;
+				border:			  0;
+				border-left:	  5px solid #005E98;
+				margin-top:		  5px;
+				padding:		  8px 6px 4px 6px;
+				resize:			  none;
+				min-height:		  14px;
+				font-size:		  13px;
+				line-height:	  16px;
+			}
+			#decode{
+				background-color: rgb(0, 106, 170);
+				border:			  1px solid #1D3D76;
+				color:			  #fff;
+				padding:		  7px 20px;
+				margin-top:		  5px;
+				background: -webkit-gradient(linear, 0 100%, 0 0, from(#035A8F), to(#024269));
+				background: -webkit-linear-gradient(#035A8F 0%, #024269 100%);
+				background:    -moz-linear-gradient(#035A8F 0%, #024269 100%);
+				background:      -o-linear-gradient(#035A8F 0%, #024269 100%);
+				background:         linear-gradient(#035A8F 0%, #024269 100%);
+			}
+			#colorDesc{
+				text-align: center;
+				margin:		5px;
+			}
+			#colorDesc li{
+				display:	   inline-block;
+				margin-right:  5px;
+				padding:	   5px; 
+				border-radius: 3px;
+			}
+			#normal{
+				background-color: #478aa2;
+				color:			  #fff;
+				text-shadow:	  0 -1px 0 rgba(0,0,0,.5);
+			}
+			#canjoin{
+				background-color: #79C900;
+				color:			  #000;
+				text-shadow:	  0  1px 0 rgba(255,255,255,.5);
+			}
+			#completted{
+				background-color: #45358F;
+				color:			  #fff;
+				text-shadow:	  0 -1px 0 rgba(0,0,0,.5);
+			}
+			#highlight{
+				background-color: #FFF;
+				border:			  1px solid #000;
+			}
+			#pendent{
+				background-color: #c43108;
+				color:			  #fff;
+				text-shadow: 	  0 -1px 0 rgba(0,0,0,.5);
+			}
+			#nopendent{
+				background-color: #ccc;
+				text-shadow:	  0 1px 0 rgba(255,255,255,.5);
+				color:			  #000;
+				border-width:	  1px 5px 1px 1px;
+				border-style:	  solid;
+				border-color:	  rgba(0,0,0,.7);
+			}
+			#figyelmeztetes{
+				background-color: #a00;
+				margin: 20px;
+				padding: 10px;
+				color: #fff;
+				border: 3px solid #600;
+				border-radius: 3px;
+			}
+			#figyelmeztetes h2, #figyelmeztetes span{
+				font-weight: bold;
+			}
+			#figyelmeztetes p{
+				margin: 3px;
+			}
+			#figyelmeztetes h2:before, #figyelmeztetes h2:after{
+				content: "!";
+				font-size: 70px;
+			}
+			#figyelmeztetes h2:before{
+				float: left;
+				margin-right: 10px;
+			}
+			#figyelmeztetes h2:after{
+				float: right;
+				margin-left: 5px;
+			}
+			#hasznalati_utasitas{
+				background-color: #E9EBED;
+				border:			  0;
+				border-left:	  5px solid #005E98;
+				margin:		      5px 5px 20px 5px;
+				padding:		  8px 6px 4px 6px;
+			}
+			#hasznalati_utasitas p, #hasznalati_utasitas h2{
+				margin-bottom: 5px;
+			}
+	
+		</style>
+		
+<!-- 
+
+	,::                                   :                                     ::  
+	  ,:::::::::,,,,,,,,,,:               ,                              ,,:::::    
+	     ,:::: ,:~::,,::~:::            :               :::::~:::::::::~:::~:,      
+	  ,:                               ~                ,                ,   ,      
+	    ~::,              ::           :,               ,::,,,,,,,,,,,,,,:::,       
+	      :::::::::::::::::             ::               ::::    ,:: ,::~,          
+	     :  :~:  ~     :::               ,,               ::        ,,   ~          
+	      ,:,  :,      :::              ,:::              :::,       :::~           
+	        ::::::,,,:::::                                ::::::~,:::::             
+	           :::, ,,:~:::     ,:,,~:           :,      ::::                       
+	              ,,   :::::::::::, ,     ,     ,,~:::::::::::,    ::               
+	           ,:::,,,~:,  ::    :: ,      ,    : ,:   ,:    :::::                  
+	              ,:::::,         : ,      ,   ,,: ~       ,,                       
+	                               ,       , ,: ,~ :                                
+	                               ,,:::~::~    ,: ,                                
+	                             ,::: :         ::,                                 
+	                             :::,           ::,                                 
+	                            ,~:              ::                                 
+	                             ~:              :,                                 
+	                             :,              ~                                  
+	                             ~:             ,:                                  
+	                              ::            :                                   
+	                               ,:          :                                    
+	                                   ,   ,,                                       
+
+	Hibát találtál? Hiányzik funkció? Vagy csak a kód érdekel?
+	Kövesd vissza az oldal fejlődését és töltsd le az egész
+	oldal forráskódját
+	
+	https://github.com/szalonna/OE-Dependecy-Map
+	
+	oldalról, módosítsd, javítsd és küld fel a módosításod!
+
+	Szalonna
+-->
+
+		<div id="article" class="content left" style="width: 952px;">
+
+			<!-- custom content -->
+
+			<div id="figyelmeztetes">
+				<h2>Figyelem!</h2>
+				<p>Az itt található információk <span>nem hivatalosnak</span>, bármilyen tanulmányi ügyben nem minősül hivatkozási alapnak. A függőségi hálóban található, vagy a háló értelmezéséből eredő hibák miatt felelőséget nem vállalunk! Minden esetben ellenőrizd a Neptunban a tárgyak előkövetelményét és a Tanulmányi Osztály hirdetményeit!</p>
+			</div>
+
+			<div id="hasznalati_utasitas">
+				<h2>Használati utasítás</h2>
+				<p>Az oldal célja, hogy a hallgatókat segítse a tárgyak egymásraépülésének interatkív ábrázolásával. Az oldalon lehetőség van a már teljesített tárgyak, a hallgató számára aktuálisan felvehető tárgyak és a függőségek megjelenítésére.</p>
+				<p>A rendszer képes a 2008-as tantervből a 2012-es tantervre konvertálni a már korábban összeállított teljesített tárgyak listáját. A konverzió folyamatosan bővül, ahogy a Tanulmányi Osztály kiadja a tárgyak megfeleltetését.</p>
+				<p>A rendszer kezeli az előkövetelmények teljesítése nélkül teljesített tárgyakat. A Ctrl gomb megnyomásával kattints az adott tárgy nevére!</p>
+			</div>	
+
+			<nav class="mainmenu" id="datachooser">
+				<ul style="cursor: pointer;">
+					<li><a data-json="bsc_2008.json?ver=140202">Bsc 2008-as tárgyak</a></li>
+					<li><a data-json="bsc_2012.json?ver=140202">Bsc 2012-es tárgyak</a></li>
+					<li><a data-json="msc_2010.json?ver=130217">Msc 2010-es tárgyak</a></li>
+				</ul>
+			</nav>
+			
+			<div id="drawContainer"></div>
+
+			<ul id="colorDesc">
+				<li id="normal">Nem felvehető</li>
+				<li id="canjoin">Felvehető</li>
+				<li id="completted">Teljesített</li>
+				<li id="highlight">Közvetlen előkövetelmény</li>
+				<li id="pendent">Ráépülő</li>
+				<li id="nopendent">Nincs további ráépülés</li>
+			</ul>
+
+			<div id="progressBar">
+				<p>0 kredit</p>
+				<div></div>
+			</div>
+
+		  	<input type="button" id="clearSelection" value="Összeállítás törlése" />
+			
+			<div style="margin: 30px 0 10px 3px;">
+				<h2>Azonosító</h2>
+				<p>Összeállításod elmentheted az alábbi kód elmentésével. Később visszaállíthatod a kód segítségével.</p>
+		  	</div>
+		  	
+		  	<textarea id="hash"></textarea>
+		  	
+		  	<input type="button" id="decode" value="Beolvas" />
+		
+			<!-- custom content -->
+		</div>
+		
+	</div>
+	
+	<footer>
+			<nav>
+				<ul class="left menu">
+					<li>Copyright 2013</li>
+					<li>
+						<a href="http://www.nikhok.hu/cimlap" title="Címlap">Címlap</a>
+					</li>
+					<li>
+						<a href="http://www.nikhok.hu/elerhetosegek" title="Elérhetőségek">Elérhetőségek</a>
+					</li>
+					<li>
+		       	 		<a href="http://www.nikhok.hu/tantargyi-halo" title="Tantárgyi háló">Tantárgyi háló</a>
+					</li>
+					<li>
+						<a href="http://www.nikhok.hu/palyazatok" title="Pályázatok">Pályázatok</a>
+					</li>
+					<li>
+						<a href="http://www.nikhok.hu/menetrend" title="Menetrend">Menetrend</a>
+					</li>
+				</ul>
+			</nav>
+	</footer>
+</div>
+
+	<script src="index_files/jquery.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/jquery.js"><\/script>')</script>
+
+<!-- 
+
+	,::                                   :                                     ::  
+	  ,:::::::::,,,,,,,,,,:               ,                              ,,:::::    
+	     ,:::: ,:~::,,::~:::            :               :::::~:::::::::~:::~:,      
+	  ,:                               ~                ,                ,   ,      
+	    ~::,              ::           :,               ,::,,,,,,,,,,,,,,:::,       
+	      :::::::::::::::::             ::               ::::    ,:: ,::~,          
+	     :  :~:  ~     :::               ,,               ::        ,,   ~          
+	      ,:,  :,      :::              ,:::              :::,       :::~           
+	        ::::::,,,:::::                                ::::::~,:::::             
+	           :::, ,,:~:::     ,:,,~:           :,      ::::                       
+	              ,,   :::::::::::, ,     ,     ,,~:::::::::::,    ::               
+	           ,:::,,,~:,  ::    :: ,      ,    : ,:   ,:    :::::                  
+	              ,:::::,         : ,      ,   ,,: ~       ,,                       
+	                               ,       , ,: ,~ :                                
+	                               ,,:::~::~    ,: ,                                
+	                             ,::: :         ::,                                 
+	                             :::,           ::,                                 
+	                            ,~:              ::                                 
+	                             ~:              :,                                 
+	                             :,              ~                                  
+	                             ~:             ,:                                  
+	                              ::            :                                   
+	                               ,:          :                                    
+	                                   ,   ,,                                       
+
+	Hibát találtál? Hiányzik funkció? Vagy csak a kód érdekel?
+	Kövesd vissza az oldal fejlődését és töltsd le az egész
+	oldal forráskódját
+	
+	https://github.com/szalonna/OE-Dependecy-Map
+	
+	oldalról, módosítsd, javítsd és küld fel a módosításod!
+
+	Szalonna
+-->
+
+	<!-- custom js -->
+ 	<script type="text/javascript" src="EventBus.js"></script>
+	<script type="text/javascript" src="hgraph.js?ver=20130508"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		if(typeof document.createElement('canvas').getContext == 'function'){
+
+		    var container = document.getElementById("drawContainer"),
+		    	graph     = new GraphDrawer(container);
+
+			$("#datachooser a").click(function(){
+				$.getJSON(
+					this.getAttribute("data-json"),
+					function(data){
+						graph.addJSON(data, true);
+						graph.draw();
+				    	calcKredits();
+					})
+			});
+
+		    var progressBar = function(max, current){
+		    	
+		    	var maxwidth = $("#home").width(),
+		    		percent  = current / max * 100;
+
+		    	$("#progressBar > div").css({
+		    		width: percent + "%"
+		    	});
+		    	if(current >= 54){
+		    		$("#progressBar > div")[0].style.backgroundColor = "rgb(121, 201, 0)";
+		    	}else{
+		    		$("#progressBar > div")[0].style.backgroundColor = "rgb(235, 55, 30)";
+		    	}
+		    	$("#progressBar > p").text(current + " kredit");
+		    };
+
+		    var calcKredits = function(){
+		    	var items    = graph.getItems(),
+		      		sum      = 0,
+		      		selected = 0;
+
+		    	for(var i = 0; i < items.length; i++){
+		    		sum += items[i].kredit;
+		    		if(items[i].active){
+		      			selected += items[i].kredit;
+		    		}
+		    	}
+
+		    	progressBar(sum, selected);
+		    };
+
+	    	var hashTxt = document.getElementById("hash");
+
+	    	hashTxt.resize = function(){
+	    		
+	    		this.style.height = 0;
+
+	    		if(parseInt(this.style.minHeight, 10) > this.scrollHeight){
+	    			this.style.height = this.style.minHeight;
+	    		}else{
+					this.style.height = this.scrollHeight + "px";
+	    		}
+
+	    	}
+
+		    graph.click = function(item, e){
+		    	hashTxt.value = graph.serialize();
+		    	hashTxt.resize();
+		    	calcKredits();
+		    };
+
+		    graph.hovered = function(item, e){
+
+		    };
+
+		    document.getElementById("decode").onclick = function(e){
+		    	var data = document.getElementById("hash").value;
+		    	if(data.length > 0){
+		    		graph.unserialize(data);
+		    		calcKredits();
+		    	}
+		    }
+
+	    	hashTxt.resize();
+
+	    	$("#clearSelection").click(function(){
+	    		graph.clearSelection();
+	    		graph.draw();
+	    		calcKredits();
+	    	})
+
+	    }else{
+
+	    	$("#container").text("Nem kompatibilis böngésző.");
+
+	    }
+	})
+
+	</script>
+	<!-- custom js -->
+
+<!-- 
+
+	,::                                   :                                     ::  
+	  ,:::::::::,,,,,,,,,,:               ,                              ,,:::::    
+	     ,:::: ,:~::,,::~:::            :               :::::~:::::::::~:::~:,      
+	  ,:                               ~                ,                ,   ,      
+	    ~::,              ::           :,               ,::,,,,,,,,,,,,,,:::,       
+	      :::::::::::::::::             ::               ::::    ,:: ,::~,          
+	     :  :~:  ~     :::               ,,               ::        ,,   ~          
+	      ,:,  :,      :::              ,:::              :::,       :::~           
+	        ::::::,,,:::::                                ::::::~,:::::             
+	           :::, ,,:~:::     ,:,,~:           :,      ::::                       
+	              ,,   :::::::::::, ,     ,     ,,~:::::::::::,    ::               
+	           ,:::,,,~:,  ::    :: ,      ,    : ,:   ,:    :::::                  
+	              ,:::::,         : ,      ,   ,,: ~       ,,                       
+	                               ,       , ,: ,~ :                                
+	                               ,,:::~::~    ,: ,                                
+	                             ,::: :         ::,                                 
+	                             :::,           ::,                                 
+	                            ,~:              ::                                 
+	                             ~:              :,                                 
+	                             :,              ~                                  
+	                             ~:             ,:                                  
+	                              ::            :                                   
+	                               ,:          :                                    
+	                                   ,   ,,                                       
+
+	Hibát találtál? Hiányzik funkció? Vagy csak a kód érdekel?
+	Kövesd vissza az oldal fejlődését és töltsd le az egész
+	oldal forráskódját
+	
+	https://github.com/szalonna/OE-Dependecy-Map
+	
+	oldalról, módosítsd, javítsd és küld fel a módosításod!
+
+	Szalonna
+-->
+
+
+</body>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-42396135-1', 'nikhok.hu');
+	  ga('send', 'pageview');
+	</script>
+</html>
