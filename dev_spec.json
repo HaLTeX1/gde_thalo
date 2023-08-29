@@ -1,0 +1,36 @@
+{
+	"id": "media_spec",
+	"items": [
+		{
+			"id": "B-SZOFTT",
+			"name": "Szoftvertervezés",
+			"level": 1,
+			"kredit": 5
+		},{
+			"id": "B-WEBALK",
+			"name": "Webalkalmazás fejlesztés",
+			"level": 1,
+			"kredit": 5
+        },{
+			"id": "B-ALKFET",
+			"name": "Alkalmazásfejlesztés-technológiái",
+			"level": 2,
+			"kredit": 5
+        },{
+			"id": "B-MIFEJL",
+			"name": "Mesterséges intelligencia alapú fejlesztés",
+			"level": 2,
+			"kredit": 5
+        },{
+			"id": "B-SZOFTF",
+			"name": "Szoftverfejlesztés projektfeladat",
+			"level": 2,
+			"kredit": 5
+        },{
+			"id": "B-UZLINT",
+			"name": "Üzleti intelligencia",
+			"level": 2,
+			"kredit": 5
+        }
+    ]
+}

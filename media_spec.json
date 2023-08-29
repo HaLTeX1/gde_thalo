@@ -1,0 +1,36 @@
+{
+	"id": "media_spec",
+	"items": [
+		{
+			"id": "B-HANGVI",
+			"name": "Hang- és videotechnika",
+			"level": 1,
+			"kredit": 5
+		},{
+			"id": "B-MULTIM",
+			"name": "Multimédia",
+			"level": 1,
+			"kredit": 5
+        },{
+			"id": "B-KEPFEL",
+			"name": "Digitális képfeldolgozás",
+			"level": 2,
+			"kredit": 5
+        },{
+			"id": "B-MULTIPR",
+			"name": "Multimédia projektfeladat",
+			"level": 2,
+			"kredit": 5
+        },{
+			"id": "B-TAVERZ",
+			"name": "Távérzékelés",
+			"level": 2,
+			"kredit": 5
+        },{
+			"id": "B-TERINF",
+			"name": "Térinformatikai rendszerek",
+			"level": 2,
+			"kredit": 5
+        }
+    ]
+}

@@ -1,0 +1,355 @@
+{
+	"id": "bsc2008",
+	"items": [
+		{
+			"id": "B-MATEMA",
+			"name": "Matematika I.",
+			"level": 1,
+			"kredit": 5
+		},
+		{
+			"id": "B-OPREND",
+			"name": "Operációs Rendszerek",
+			"level": 1,
+			"kredit": 4
+		},
+		{
+			"id": "B-INFOAP",
+			"name": "Informatika Alapjai",
+			"level": 1,
+			"kredit": 8
+		},
+		{
+			"id": "B-PROGAL",
+			"name": "Programozási Alapok",
+			"level": 1,
+			"kredit": 8
+		},
+		{
+			"id": "B-KOMPEE",
+			"name": "Személyes kompetencia és kommunikáció fejlesztése",
+			"level": 1,
+			"kredit": 3
+		},
+		{
+			"id": "B-KOZGAL",
+			"name": "Közgazdaságtan Alapjai",
+			"level": 1,
+			"kredit": 5
+		},{
+			"id": "B-NUMEAN",
+			"name": "Numerikus Analízis",
+			"level": 2,
+			"kredit": 5
+		},{
+			"id": "B-JOGISM",
+			"name": "Jogi Ismeretek",
+			"level": 2,
+			"kredit": 3
+		},{
+			"id": "B-OOPROG",
+			"name": "Objektumorientált programozás",
+			"level": 2,
+			"kredit": 4
+		},
+		{
+			"id": "B-PROBAL",
+			"name": "Problémamegoldás és algoritmusok",
+			"level": 2,
+			"kredit": 5
+		},
+		{
+			"id": "B-STATAL",
+			"name": "Statisztikai Alapok",
+			"level": 2,
+			"kredit": 5
+		},{
+			"id": "B-VALSZA",
+			"name": "Valószínűségszámítás",
+			"level": 2,
+			"kredit": 5
+		},
+		{
+			"id": "B-VILELE",
+			"name": "Villamoságtan és elektronika",
+			"level": 2,
+			"kredit": 5
+		},{
+			"id": "B-DBAZIS",
+			"name": "Adatbázisok",
+			"level": 3,
+			"kredit": 6
+		},{
+			"id": "B-DIGTEC",
+			"name": "Digitális technika",
+			"level": 3,
+			"kredit": 4
+		},{
+			"id": "B-INNOVP",
+			"name": "Innováció- és Projektmenedzsment",
+			"level": 3,
+			"kredit": 5
+		},{
+			"id": "B-LINALG",
+			"name": "Lineáris Algebra",
+			"level": 3,
+			"kredit": 3
+		},{
+			"id": "B-MERIRT",
+			"name": "Mérés- és irányítástechnika",
+			"level": 3,
+			"kredit": 4
+		},{
+			"id": "B-SZGARC",
+			"name": "Számítógép-architektúrák",
+			"level": 3,
+			"kredit": 4
+		},{
+			"id": "B-VALMEN",
+			"name": "Vállalkozásmenedzsment",
+			"level": 3,
+			"kredit": 4
+		},{
+			"id": "B-WEBPRO",
+			"name": "Webprogramozás alapjai",
+			"level": 4,
+			"kredit": 4
+		},{
+			"id": "B-DBSZER",
+			"name": "Adatbázis-szerverek",
+			"level": 4,
+			"kredit": 4
+		},{
+			"id": "B-BEAIOT",
+			"name": "Beágyazott rendszerek és IoT",
+			"level": 4,
+			"kredit": 4
+		},{
+			"id": "B-HALOZA",
+			"name": "Hálózatok",
+			"level": 4,
+			"kredit": 5
+		},{
+			"id": "B-INFBIZ",
+			"name": "Informatikai biztonság",
+			"level": 4,
+			"kredit": 5
+		},{
+			"id": "B-KORSZG",
+			"name": "Korszerű számítógéprendszerek",
+			"level": 4,
+			"kredit": 4
+		},{
+			"id": "B-GRAFIK",
+			"name": "Számítógépes grafika",
+			"level": 4,
+			"kredit": 4
+		},{
+			"id": "B-SZAMFE",
+			"name": "Számítási felhő",
+			"level": 5,
+			"kredit": 4
+		},{
+			"id": "B-MOBILA",
+			"name": "Mobil alkalmazások fejlesztése",
+			"level": 5,
+			"kredit": 4
+		},{
+			"id": "B-INFREF",
+			"name": "Informatikai rendszerek fejlesztése",
+			"level": 5,
+			"kredit": 5
+		},{
+			"id": "B-DEVOPS",
+			"name": "DEVOPS",
+			"level": 5,
+			"kredit": 5
+		},{
+			"id": "SPECIALIZACIO",
+			"name": "Specializáció",
+			"level": 5,
+			"kredit": 10
+		},{
+			"id": "B-MESTIN",
+			"name": "Mesterséges intelligencia",
+			"level": 6,
+			"kredit": 8
+		},{
+			"id": "SPECIALIZACIO_II",
+			"name": "Specializáció",
+			"level": 6,
+			"kredit": 20
+		},{
+			"id": "SZABVAL",
+			"name": "Szabadon választható",
+			"level": 7,
+			"kredit": 12
+		},{
+			"id": "B-NYELVI",
+			"name": "Idegen nyelv",
+			"level": 7,
+			"kredit": 3
+		},{
+			"id": "B-SZDMIN",
+			"name": "Szakdolgozat MI",
+			"level": 7,
+			"kredit": 15
+		},{
+			"id": "B-SZGYMI",
+			"name": "Szakmai Gyakorlat MI",
+			"level": 7,
+			"kredit": 0
+		}
+	],
+	"connections": [
+		{
+			"item": "SPECIALIZACIO_II",
+			"needed": 
+			[
+				"SPECIALIZACIO"
+			]
+		},
+		{
+			"item": "B-OOPROG",
+			"needed": 
+			[
+				"B-PROGAL"
+			]
+		},
+		{
+			"item": "B-DBSZER",
+			"needed": 
+			[
+				"B-DBAZIS"
+			]
+		},
+		{
+			"item": "B-INFREF",
+			"needed": [
+				"B-PROGAL",
+				"B-OOPROG"
+			]
+		},
+		{
+			"item": "B-VALMEN",
+			"needed": 
+			[
+				"B-JOGISM"
+			]
+		},
+		{
+			"item": "B-MERIRT",
+			"needed": 
+			[
+				"B-VILELE"
+			]
+		},
+		{
+			"item": "B-MESTIN",
+			"needed": 
+			[
+				"B-LINALG"
+			]
+		},
+		{
+			"item": "B-NUMEAN",
+			"needed": 
+			[
+				"B-MATEMA"
+			]
+		},
+		{
+			"item": "B-LINALG",
+			"needed": 
+			[
+				"B-MATEMA",
+				"B-NUMEAN"
+			]
+		},
+		{
+			"item": "B-SZGYMI",
+			"needed": 
+			[
+				"B-INFOAP",
+				"B-KOZGAL",
+				"B-MATEMA",
+				"B-OPREND",
+				"B-PROGAL",
+				"B-KOMPEE",
+				"B-JOGISM",
+				"B-NUMEAN",
+				"B-OOPROG",
+				"B-PROBAL",
+				"B-STATAL",
+				"B-VALSZA",
+				"B-VILELE",
+				"B-DBAZIS",
+				"B-DIGTEC",
+				"B-INNOVP",
+				"B-LINALG",
+				"B-MERIRT",
+				"B-SZGARC",
+				"B-VALMEN",
+				"B-WEBPRO",
+				"B-DBSZER",
+				"B-BEAIOT",
+				"B-HALOZA",
+				"B-INFBIZ",
+				"B-KORSZG",
+				"B-GRAFIK",
+				"B-SZAMFE",
+				"B-MOBILA",
+				"B-INFREF",
+				"B-DEVOPS",
+				"SPECIALIZACIO",
+				"B-MESTIN",
+				"SPECIALIZACIO_II",
+				"SZABVAL",
+				"B-NYELVI"
+			]
+		},
+		{
+			"item": "B-SZDMIN",
+			"needed": 
+			[
+				"B-INFOAP",
+				"B-KOZGAL",
+				"B-MATEMA",
+				"B-OPREND",
+				"B-PROGAL",
+				"B-KOMPEE",
+				"B-JOGISM",
+				"B-NUMEAN",
+				"B-OOPROG",
+				"B-PROBAL",
+				"B-STATAL",
+				"B-VALSZA",
+				"B-VILELE",
+				"B-DBAZIS",
+				"B-DIGTEC",
+				"B-INNOVP",
+				"B-LINALG",
+				"B-MERIRT",
+				"B-SZGARC",
+				"B-VALMEN",
+				"B-WEBPRO",
+				"B-DBSZER",
+				"B-BEAIOT",
+				"B-HALOZA",
+				"B-INFBIZ",
+				"B-KORSZG",
+				"B-GRAFIK",
+				"B-SZAMFE",
+				"B-MOBILA",
+				"B-INFREF",
+				"B-DEVOPS",
+				"SPECIALIZACIO",
+				"B-MESTIN",
+				"SPECIALIZACIO_II",
+				"SZABVAL",
+				"B-NYELVI"
+
+			]
+		}
+	]
+}
